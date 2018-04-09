@@ -23,5 +23,8 @@ Kaggle Quora Question Pair Competition
 
 Model's Architecture :
 
-![Image](https://ibb.co/dk0jCH)
+
+This LSTM based model, takes a pair of question (P and Q) as input and output a probability(y) 	indicating duplicacy.Every pair of question is embedded using Stanford’s Glove pretrained 	vectors. The embedded vectors of each question is fed to individual LSTM network. The 	two representation output from the LSTM is used to calculate two important features. One is 	the distance which is the sum of squared difference between the two representation vectors 	and other is the angle between two vectors which is element wise multiplication of vectors. 	The output of these two features (distance and angle) are concatenated and passes through two 	dense layers (Fully connected layers) with sigmoid activation function. The model is 	trained by minimizing log loss.
+
+![](https://preview.ibb.co/cZoXzx/dia.jpg)
 
