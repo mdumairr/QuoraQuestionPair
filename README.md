@@ -3,12 +3,7 @@ Kaggle Quora Question Pair Competition
 
 “The goal of this competition is to predict whether a pair of questions are semantically same or not."
 	
-	Environment:•	numpy 
-•	tensorflow 
-•	keras
-•	pandas
-•	python 3.6
-•	jupyter notebook
+	Environment:	•numpy 	 •tensorflow 	•keras	•pandas	  •python 3.6	•jupyter notebook
 
 	The Datset was fetched from Kaggle only.
 	The Stanford’s GloVe pre-trained word vector ‘glove.840B.300d.txt’ was used for pre-processing
