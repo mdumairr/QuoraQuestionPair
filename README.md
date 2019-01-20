@@ -1,8 +1,7 @@
 # QuoraQuestionPair
 Kaggle Quora Question Pair Competition
 
-“The goal of this competition is to predict which of the provided pairs of questions contain 	two questions with the same meaning.”
-
+“The goal of this competition is to predict whether a pair of questions are semantically same or not."
 	
 	Environment:
   
