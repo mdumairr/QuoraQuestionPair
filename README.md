@@ -3,8 +3,7 @@ Kaggle Quora Question Pair Competition
 
 “The goal of this competition is to predict whether a pair of questions are semantically same or not."
 	
-	Environment:
-•	numpy 
+	Environment:•	numpy 
 •	tensorflow 
 •	keras
 •	pandas
